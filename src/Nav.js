@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import Me from './assets/images/me.png';
 import './assets/stylesheets/nav.scss';
 
-class Nav extends Component {
-    render() {
+const Nav = () => {
         return (
             <header className="navbar navbar-expand-md navbar-floating navbar-sticky navbar-dark" data-fixed-element="">
                 <div className="container">
@@ -21,7 +20,6 @@ class Nav extends Component {
                 </div>
             </header>
         )
-    }
 }
 
 export default Nav

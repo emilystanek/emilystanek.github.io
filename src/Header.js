@@ -1,12 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faLinkedin, faDribbble, faGithub
 } from "@fortawesome/free-brands-svg-icons";
 import './assets/stylesheets/header.scss';
 
-class Header extends Component {
-  render() {
+const Header =() => {
     return (
 
       <div className="row align-items-center py-3 mt-5">
@@ -32,7 +31,6 @@ class Header extends Component {
         </div>
       </div>
     )
-  }
 }
 
 export default Header

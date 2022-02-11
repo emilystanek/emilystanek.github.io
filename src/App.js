@@ -1,10 +1,9 @@
-import React, { Component } from "react"
+import React from "react"
 import Header from "./Header";
-import Portfolio from "./Portfolio";
 import Nav from "./Nav";
 
-class App extends Component {
-  render() {
+const App = () => {
+
     return (
       <div className="App">
         <div className="bg-photo">
@@ -12,13 +11,11 @@ class App extends Component {
             <div className="container">
               <Nav/>
               <Header />
-              <Portfolio />
             </div>
           </section>
         </div>
       </div>
     )
-  }
 }
 
 export default App
