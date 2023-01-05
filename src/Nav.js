@@ -9,14 +9,6 @@ const Nav = () => {
                     <a className="navbar-brand" href="index.html">
                         <img className="navbar-floating-logo d-lg-block" src={Me} alt="Around" width="100" />
                     </a>
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <a className="social" href="https://dribbble.com/EmilyStanek" target="_blank" rel="noopener noreferrer">Portfolio</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="social " href="mailto:stanekemily@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>
-                        </li>
-                    </ul>
                 </div>
             </header>
         )
