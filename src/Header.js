@@ -16,19 +16,19 @@ const Header =() => {
             <p>I'm a frontend developer with a design-savvy eye. I have a passion for ReactJS and building beautiful frontends.</p>
             <div className="social-links">
               <a href="https://www.dribbble.com/EmilyStanek" target="_blank" rel="noopener noreferrer"
-                className="dribbble social">
+                className="social">
                 <FontAwesomeIcon icon={faDribbble} size="2x" />
               </a>
-              <a href="https://www.linkedin.com/in/emilymstanek/" target="_blank" rel="noopener noreferrer"
-                className="dribbble social">
+              <a href="https://www.linkedin.com/in/emilys2023/" target="_blank" rel="noopener noreferrer"
+                className="social">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
               <a href="https://github.com/emilystanek/" target="_blank" rel="noopener noreferrer"
-                className="dribbble social">
+                className="social">
                 <FontAwesomeIcon icon={faGithub} size="2x" />
               </a>
               <a href="mailto:stanekemily@gmail.com" target="_blank" rel="noopener noreferrer"
-                className="dribbble social">
+                className="social">
                 <FontAwesomeIcon icon={faPaperPlane} size="2x" />
               </a>
             </div>
